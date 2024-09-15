@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>STATIC RESUME</title>
+</head>
+<body>
+    <div class="resume">
+        <div class="title">
+            <h1>RESUME BUILDER</h1>
+        </div>
+        <form id="form">
+            <div class="formP">
+                <div class="subtitle">
+                    <img src="public/user.png" alt="user icon" id="ficons" />
+                    PERSONAL INFORMATION 
+                </div>
+                <div class="inputInPI">
+                    <label for="name">NAME :</label>
+                    <input type="text" name="" id="name" required />
+                    <label for="fname">FATHER NAME :</label>
+                    <input type="text" name="" id="fname" required />
+                    <label for="email">EMAIL :</label>
+                    <input type="email" name="" id="email" required />
+                    <label for="contact">CONTACT INFO :</label>
+                    <input type="text" name="" id="contact" required />
+                    <label for="address">ADDRESS :</label>
+                    <input type="text" name="" id="address" required />
+                </div>
+            </div>
+            <div class="formP">
+                <div class="subtitle">
+                    <img src="public/book.png" alt="book icon" id="ficon2" />
+                    EDUCATION
+                </div>
+                <div class="formInEdu" id="formInEdu">
+                    <hr>
+                    <label for="datestart">STARTED</label>
+                    <input type="date" name="" id="datestart" required />
+                    <label for="institute">INSTITUTE</label>
+                    <input type="text" name="" id="institute" required />
+                    <label for="degree">DEGREE & MAJOR</label>
+                    <input type="text" name="" id="degree" required />
+                    <label for="dateend">ENDED</label>
+                    <input type="date" name="" id="dateend" required />
+                </div>
+                <button id="addedu">ADD EDUCATION</button>
+            </div>
+            <div class="formP">
+                <div class="subtitle">
+                    <img src="public/briefcase.png" alt="briefcase icon" id="ficons" />
+                    WORKING EXPERIENCE
+                </div>
+                <div id="expform">
+                    <hr>
+                <label for="workstart">STARTED</label>
+                <input type="date" name="" id="workstart" required />
+                <label for="wplace">WORKPLACE</label>
+                <input type="text" name="" id="wplace" required />
+                <label for="workend">ENDED</label>
+                <input type="date" name="" id="workend" required />
+            </div>
+                <button type="button" id="addexp" >ADD EXPERIENCE</button>
+                
+            </div>
+            <div class="formP">
+                <div class="" id="skills">
+                    <div class="subtitle">
+                        <img src="public/pencil.png" alt="pencil icon" id="ficons" />
+                        SKILLS
+                    </div>
+                    <ul id="skillform">
+                        <li><input type="text" name="" id="skill1" /></li>
+                    </ul>
+                </div>
+                <button  id="addskills">ADD SKILLS</button>
+            </div>
+            <button id="btnS">HIDE SKILLS</button>
+        </form>
+    </div>
+</body>
+</html>
