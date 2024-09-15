@@ -29,7 +29,7 @@ body {
 .resume {
     background-size: cover;
     background-position: center;
-    background-image: url('public/bg.jpg');
+    background-image: url('bg.jpg');
     padding: 20px;
 }
 
