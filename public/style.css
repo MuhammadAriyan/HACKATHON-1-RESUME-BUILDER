@@ -25,12 +25,12 @@ body {
     padding: 10px;
     box-shadow: 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
-
 .resume {
     background-size: cover;
     background-position: center;
     background-image: url('bg.jpg');
-    padding: 20px;
+    padding: 50px;
+    overflow: hidden;
 }
 
 .formP {
@@ -91,12 +91,29 @@ button{
     color: white;
     padding: 9px;
 }
+#labelforPfp{
+    background: black;
+    border-radius: 50px;
+    color: white;
+    padding: 9px;
+    text-align: center;
+}
+
+#add-image{
+    display: none;
+}
+
+#userPfp{
+    width: 20%; 
+    height: auto; 
+    border-radius: 50%;        
+    display: block; 
+    object-fit: cover;
+    margin: 0 auto;     
+}
 
 @media print {
-    button {
-        display: none;
-}
-     .title{
+    #form,.title,button{
         display: none;
      }
 }
@@ -134,4 +151,8 @@ button{
     input, textarea {
        padding: 10px;
    }
+}
+
+button{
+    width: 100%;
 }
